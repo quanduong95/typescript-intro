@@ -6,7 +6,7 @@ Types:
 ---String => str: string
 ---Array => arr: string[] OR arr:(string|number|boolean)[] 
 ---Tuple => array but knows how many elements and type for specific indexes
----Enum
+---Enums =>
 ---Void
 ---Null & undefined
 ---Object
@@ -29,3 +29,12 @@ Types:
 
 // run this command to watch  the file changes without recompling everytime
 tsc <fileName> -w
+
+
+//optional => could be undefined
+type Optional = {
+  name?: string; // the name attribute is optional
+  address: string;
+};
+
+
