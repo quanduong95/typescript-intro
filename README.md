@@ -12,3 +12,6 @@ Types:
 ---Object
 ---Union : (ex: number | string)
 ---.... (such as RegExp - regular expression)
+
+Learning Typescript
+image.png 
