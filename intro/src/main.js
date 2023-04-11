@@ -76,3 +76,6 @@ var sumAll = function (a, b, c) {
     return a + b + c;
 };
 sumAll(); // this returns 3 b/c a and b default values sum is 3 and c undefined
+var a1 = 'hello1';
+var b1 = a1;
+b1 = 2;

@@ -120,3 +120,15 @@ const sumAll = (a: number = 1, b: number = 2, c?: number): number => {
 };
 
 sumAll(); // this returns 3 b/c a and b default values sum is 3 and c undefined
+
+
+//type Assertions
+type One = string
+type Two = string | number
+type Three = 'hello'
+
+let a1: One = 'hello1';
+let b1 = a1 as Two;
+b1 = 2;
+
+
